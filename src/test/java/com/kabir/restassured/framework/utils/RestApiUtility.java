@@ -18,6 +18,8 @@ public class RestApiUtility {
 
 	static SoftAssert softAssert = new SoftAssert();
 
+	// Post(Create) Booking method
+
 	public static void postBooking(HashMap<String, Object> dataBeanMap, Map<String, String> testCaseData)
 			throws JsonProcessingException {
 
@@ -45,6 +47,7 @@ public class RestApiUtility {
 
 	}
 
+	// Get Booking method
 	public static void getBooking(HashMap<String, Object> dataBeanMap, Map<String, String> testCaseData)
 			throws Exception {
 		String baseURI = FileNameConstants.BASE_URL + FileNameConstants.BOOKING_URI;
