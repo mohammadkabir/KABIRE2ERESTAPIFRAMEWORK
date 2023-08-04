@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-03T18:48:35 PDT" name="Default suite" finished-at="2023-08-03T18:48:39 PDT" duration-ms="4851">
+  <suite started-at="2023-08-03T18:52:03 PDT" name="Default suite" finished-at="2023-08-03T18:52:08 PDT" duration-ms="4885">
     <groups>
     </groups>
-    <test started-at="2023-08-03T18:48:35 PDT" name="Default test" finished-at="2023-08-03T18:48:39 PDT" duration-ms="4851">
+    <test started-at="2023-08-03T18:52:03 PDT" name="Default test" finished-at="2023-08-03T18:52:08 PDT" duration-ms="4885">
       <class name="com.kabir.restassured.framework.tests.DataDrivenTestingUsingExcelFile">
-        <test-method signature="DataDrivenTesting(java.util.Map)[pri:0, instance:com.kabir.restassured.framework.tests.DataDrivenTestingUsingExcelFile@4f18837a]" started-at="2023-08-03T18:48:35 PDT" name="DataDrivenTesting" data-provider="ExcelTestData" finished-at="2023-08-03T18:48:36 PDT" duration-ms="1448" status="PASS">
+        <test-method signature="DataDrivenTesting(java.util.Map)[pri:0, instance:com.kabir.restassured.framework.tests.DataDrivenTestingUsingExcelFile@4f18837a]" started-at="2023-08-03T18:52:04 PDT" name="DataDrivenTesting" data-provider="ExcelTestData" finished-at="2023-08-03T18:52:05 PDT" duration-ms="1459" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -28,7 +28,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DataDrivenTesting -->
-        <test-method signature="DataDrivenTesting(java.util.Map)[pri:0, instance:com.kabir.restassured.framework.tests.DataDrivenTestingUsingExcelFile@4f18837a]" started-at="2023-08-03T18:48:36 PDT" name="DataDrivenTesting" data-provider="ExcelTestData" finished-at="2023-08-03T18:48:37 PDT" duration-ms="471" status="PASS">
+        <test-method signature="DataDrivenTesting(java.util.Map)[pri:0, instance:com.kabir.restassured.framework.tests.DataDrivenTestingUsingExcelFile@4f18837a]" started-at="2023-08-03T18:52:05 PDT" name="DataDrivenTesting" data-provider="ExcelTestData" finished-at="2023-08-03T18:52:06 PDT" duration-ms="475" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -40,7 +40,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DataDrivenTesting -->
-        <test-method signature="DataDrivenTesting(java.util.Map)[pri:0, instance:com.kabir.restassured.framework.tests.DataDrivenTestingUsingExcelFile@4f18837a]" started-at="2023-08-03T18:48:37 PDT" name="DataDrivenTesting" data-provider="ExcelTestData" finished-at="2023-08-03T18:48:37 PDT" duration-ms="433" status="PASS">
+        <test-method signature="DataDrivenTesting(java.util.Map)[pri:0, instance:com.kabir.restassured.framework.tests.DataDrivenTestingUsingExcelFile@4f18837a]" started-at="2023-08-03T18:52:06 PDT" name="DataDrivenTesting" data-provider="ExcelTestData" finished-at="2023-08-03T18:52:06 PDT" duration-ms="430" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -54,7 +54,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DataDrivenTesting -->
-        <test-method signature="DataDrivenTesting(java.util.Map)[pri:0, instance:com.kabir.restassured.framework.tests.DataDrivenTestingUsingExcelFile@4f18837a]" started-at="2023-08-03T18:48:37 PDT" name="DataDrivenTesting" data-provider="ExcelTestData" finished-at="2023-08-03T18:48:38 PDT" duration-ms="424" status="PASS">
+        <test-method signature="DataDrivenTesting(java.util.Map)[pri:0, instance:com.kabir.restassured.framework.tests.DataDrivenTestingUsingExcelFile@4f18837a]" started-at="2023-08-03T18:52:06 PDT" name="DataDrivenTesting" data-provider="ExcelTestData" finished-at="2023-08-03T18:52:07 PDT" duration-ms="431" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -75,7 +75,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DataDrivenTesting -->
-        <test-method signature="DataDrivenTesting(java.util.Map)[pri:0, instance:com.kabir.restassured.framework.tests.DataDrivenTestingUsingExcelFile@4f18837a]" started-at="2023-08-03T18:48:38 PDT" name="DataDrivenTesting" data-provider="ExcelTestData" finished-at="2023-08-03T18:48:38 PDT" duration-ms="420" status="PASS">
+        <test-method signature="DataDrivenTesting(java.util.Map)[pri:0, instance:com.kabir.restassured.framework.tests.DataDrivenTestingUsingExcelFile@4f18837a]" started-at="2023-08-03T18:52:07 PDT" name="DataDrivenTesting" data-provider="ExcelTestData" finished-at="2023-08-03T18:52:07 PDT" duration-ms="421" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -86,7 +86,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DataDrivenTesting -->
-        <test-method signature="DataDrivenTesting(java.util.Map)[pri:0, instance:com.kabir.restassured.framework.tests.DataDrivenTestingUsingExcelFile@4f18837a]" started-at="2023-08-03T18:48:38 PDT" name="DataDrivenTesting" data-provider="ExcelTestData" finished-at="2023-08-03T18:48:39 PDT" duration-ms="416" status="PASS">
+        <test-method signature="DataDrivenTesting(java.util.Map)[pri:0, instance:com.kabir.restassured.framework.tests.DataDrivenTestingUsingExcelFile@4f18837a]" started-at="2023-08-03T18:52:07 PDT" name="DataDrivenTesting" data-provider="ExcelTestData" finished-at="2023-08-03T18:52:07 PDT" duration-ms="426" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -99,7 +99,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DataDrivenTesting -->
-        <test-method signature="DataDrivenTesting(java.util.Map)[pri:0, instance:com.kabir.restassured.framework.tests.DataDrivenTestingUsingExcelFile@4f18837a]" started-at="2023-08-03T18:48:39 PDT" name="DataDrivenTesting" data-provider="ExcelTestData" finished-at="2023-08-03T18:48:39 PDT" duration-ms="415" status="PASS">
+        <test-method signature="DataDrivenTesting(java.util.Map)[pri:0, instance:com.kabir.restassured.framework.tests.DataDrivenTestingUsingExcelFile@4f18837a]" started-at="2023-08-03T18:52:07 PDT" name="DataDrivenTesting" data-provider="ExcelTestData" finished-at="2023-08-03T18:52:08 PDT" duration-ms="420" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -111,7 +111,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DataDrivenTesting -->
-        <test-method signature="DataDrivenTesting(java.util.Map)[pri:0, instance:com.kabir.restassured.framework.tests.DataDrivenTestingUsingExcelFile@4f18837a]" started-at="2023-08-03T18:48:39 PDT" name="DataDrivenTesting" data-provider="ExcelTestData" finished-at="2023-08-03T18:48:39 PDT" duration-ms="425" status="PASS">
+        <test-method signature="DataDrivenTesting(java.util.Map)[pri:0, instance:com.kabir.restassured.framework.tests.DataDrivenTestingUsingExcelFile@4f18837a]" started-at="2023-08-03T18:52:08 PDT" name="DataDrivenTesting" data-provider="ExcelTestData" finished-at="2023-08-03T18:52:08 PDT" duration-ms="421" status="PASS">
           <params>
             <param index="0">
               <value>
