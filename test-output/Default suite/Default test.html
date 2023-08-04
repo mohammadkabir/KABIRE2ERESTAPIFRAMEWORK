@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>8/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Aug 03 13:02:15 PDT 2023</td>
+<td>Started on:</td><td>Thu Aug 03 18:34:11 PDT 2023</td>
 </tr>
-<tr><td>Total time:</td><td>2 seconds (2641 ms)</td>
+<tr><td>Total time:</td><td>4 seconds (4864 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,18 +75,59 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.kabir.e2eframework.tests.DataDrivenTestingUsingExcelFile.DataDrivenTesting()'><b>DataDrivenTesting</b><br>Test class: com.kabir.e2eframework.tests.DataDrivenTestingUsingExcelFile<br>Parameters: {APIMethodName=PutBooking, BaseLineStatusCode=201, FirstName=, InputData=, LastName=, SequenceID=3, Test_Case_Name=FlightBookingE2E, TotalPrice=, ValidationContent=}</td>
+<td title='com.kabir.restassured.framework.tests.DataDrivenTestingUsingExcelFile.DataDrivenTesting()'><b>DataDrivenTesting</b><br>Test class: com.kabir.restassured.framework.tests.DataDrivenTestingUsingExcelFile<br>Parameters: {APIMethodName=GetToken, BaseLineStatusCode=200, InputData={
+  "username": "admin",
+  "password": "password123"
+}, SequenceID=3, Test_Case_Name=FlightBookingE2E, ValidationContent=[$.token],[KEYEXISTS],[TRUE],[1]}</td>
 <td></td>
 <td>0</td>
-<td>com.kabir.e2eframework.tests.DataDrivenTestingUsingExcelFile@4f18837a</td></tr>
+<td>com.kabir.restassured.framework.tests.DataDrivenTestingUsingExcelFile@4f18837a</td></tr>
 <tr>
-<td title='com.kabir.e2eframework.tests.DataDrivenTestingUsingExcelFile.DataDrivenTesting()'><b>DataDrivenTesting</b><br>Test class: com.kabir.e2eframework.tests.DataDrivenTestingUsingExcelFile<br>Parameters: {APIMethodName=GetBooking, BaseLineStatusCode=200, FirstName=, InputData=, LastName=, SequenceID=2, Test_Case_Name=FlightBookingE2E, TotalPrice=, ValidationContent=[$.lastname],[EQUALS],[Dam]
+<td title='com.kabir.restassured.framework.tests.DataDrivenTestingUsingExcelFile.DataDrivenTesting()'><b>DataDrivenTesting</b><br>Test class: com.kabir.restassured.framework.tests.DataDrivenTestingUsingExcelFile<br>Parameters: {APIMethodName=PatchBooking, BaseLineStatusCode=200, InputData={
+  "lastname": "Kabir"
+}, SequenceID=6, Test_Case_Name=FlightBookingE2E, ValidationContent=[$.lastname],[EQUALS],[Kabir]}</td>
+<td></td>
+<td>0</td>
+<td>com.kabir.restassured.framework.tests.DataDrivenTestingUsingExcelFile@4f18837a</td></tr>
+<tr>
+<td title='com.kabir.restassured.framework.tests.DataDrivenTestingUsingExcelFile.DataDrivenTesting()'><b>DataDrivenTesting</b><br>Test class: com.kabir.restassured.framework.tests.DataDrivenTestingUsingExcelFile<br>Parameters: {APIMethodName=GetBooking, BaseLineStatusCode=200, InputData=, SequenceID=5, Test_Case_Name=FlightBookingE2E, ValidationContent=[$.additionalneeds],[EQUALS],[Rib Eye Steak]}</td>
+<td></td>
+<td>0</td>
+<td>com.kabir.restassured.framework.tests.DataDrivenTestingUsingExcelFile@4f18837a</td></tr>
+<tr>
+<td title='com.kabir.restassured.framework.tests.DataDrivenTestingUsingExcelFile.DataDrivenTesting()'><b>DataDrivenTesting</b><br>Test class: com.kabir.restassured.framework.tests.DataDrivenTestingUsingExcelFile<br>Parameters: {APIMethodName=GetBooking, BaseLineStatusCode=200, InputData=, SequenceID=2, Test_Case_Name=FlightBookingE2E, ValidationContent=[$.lastname],[EQUALS],[Dam]
 [$.firstname],[EQUALS],[Van]}</td>
 <td></td>
 <td>0</td>
-<td>com.kabir.e2eframework.tests.DataDrivenTestingUsingExcelFile@4f18837a</td></tr>
+<td>com.kabir.restassured.framework.tests.DataDrivenTestingUsingExcelFile@4f18837a</td></tr>
 <tr>
-<td title='com.kabir.e2eframework.tests.DataDrivenTestingUsingExcelFile.DataDrivenTesting()'><b>DataDrivenTesting</b><br>Test class: com.kabir.e2eframework.tests.DataDrivenTestingUsingExcelFile<br>Parameters: {APIMethodName=PostBooking, BaseLineStatusCode=201, FirstName=Mohammad, InputData={
+<td title='com.kabir.restassured.framework.tests.DataDrivenTestingUsingExcelFile.DataDrivenTesting()'><b>DataDrivenTesting</b><br>Test class: com.kabir.restassured.framework.tests.DataDrivenTestingUsingExcelFile<br>Parameters: {APIMethodName=GetBooking, BaseLineStatusCode=200, InputData=, SequenceID=7, Test_Case_Name=FlightBookingE2E, ValidationContent=[$.lastname],[EQUALS],[Kabir]
+[$.additionalneeds],[EQUALS],[Rib Eye Steak]}</td>
+<td></td>
+<td>0</td>
+<td>com.kabir.restassured.framework.tests.DataDrivenTestingUsingExcelFile@4f18837a</td></tr>
+<tr>
+<td title='com.kabir.restassured.framework.tests.DataDrivenTestingUsingExcelFile.DataDrivenTesting()'><b>DataDrivenTesting</b><br>Test class: com.kabir.restassured.framework.tests.DataDrivenTestingUsingExcelFile<br>Parameters: {APIMethodName=PutBooking, BaseLineStatusCode=200, InputData={
+  "firstname": "Van",
+  "lastname": "Dam",
+  "totalprice": 1000,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2018-01-01",
+    "checkout": "2019-01-01"
+  },
+  "additionalneeds": "Rib Eye Steak"
+}, SequenceID=4, Test_Case_Name=FlightBookingE2E, ValidationContent=[$.additionalneeds],[EQUALS],[Rib Eye Steak]}</td>
+<td></td>
+<td>0</td>
+<td>com.kabir.restassured.framework.tests.DataDrivenTestingUsingExcelFile@4f18837a</td></tr>
+<tr>
+<td title='com.kabir.restassured.framework.tests.DataDrivenTestingUsingExcelFile.DataDrivenTesting()'><b>DataDrivenTesting</b><br>Test class: com.kabir.restassured.framework.tests.DataDrivenTestingUsingExcelFile<br>Parameters: {APIMethodName=DeleteBooking, BaseLineStatusCode=201, InputData=, SequenceID=8, Test_Case_Name=FlightBookingE2E, ValidationContent=}</td>
+<td></td>
+<td>0</td>
+<td>com.kabir.restassured.framework.tests.DataDrivenTestingUsingExcelFile@4f18837a</td></tr>
+<tr>
+<td title='com.kabir.restassured.framework.tests.DataDrivenTestingUsingExcelFile.DataDrivenTesting()'><b>DataDrivenTesting</b><br>Test class: com.kabir.restassured.framework.tests.DataDrivenTestingUsingExcelFile<br>Parameters: {APIMethodName=PostBooking, BaseLineStatusCode=201, InputData={
   "firstname": "Van",
   "lastname": "Dam",
   "totalprice": 1000,
@@ -96,10 +137,10 @@ function toggleAllBoxes() {
     "checkout": "2019-01-01"
   },
   "additionalneeds": "Muslim Food"
-}, LastName=kabir, SequenceID=1, Test_Case_Name=FlightBookingE2E, TotalPrice=1000, ValidationContent=}</td>
+}, SequenceID=1, Test_Case_Name=FlightBookingE2E, ValidationContent=}</td>
 <td></td>
 <td>1</td>
-<td>com.kabir.e2eframework.tests.DataDrivenTestingUsingExcelFile@4f18837a</td></tr>
+<td>com.kabir.restassured.framework.tests.DataDrivenTestingUsingExcelFile@4f18837a</td></tr>
 </table><p>
 </body>
 </html>

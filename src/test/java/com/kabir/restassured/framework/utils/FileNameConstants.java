@@ -1,4 +1,4 @@
-package com.kabir.e2eframework.utils;
+package com.kabir.restassured.framework.utils;
 
 public class FileNameConstants {
 	
@@ -26,7 +26,8 @@ public class FileNameConstants {
 	// Base URL and URIs
 	
 	public static final String BASE_URL = "https://restful-booker.herokuapp.com";
-	public static final String POST_BOOKING_URI = "/booking";
+	public static final String BOOKING_URI = "/booking";
+	public static final String TOKEN_URI="/auth";
 	public static String SPLITSEMICOLONPATTERN = "];[";
 	public static String SPLITSCOMMAPATTERN = "],[";
 	public static final String TOKEN_JIRAID = "JIRAID:";

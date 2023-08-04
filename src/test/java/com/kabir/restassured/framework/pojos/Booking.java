@@ -1,4 +1,4 @@
-package com.kabir.e2eframework.pojos;
+package com.kabir.restassured.framework.pojos;
 
 
 public class Booking {

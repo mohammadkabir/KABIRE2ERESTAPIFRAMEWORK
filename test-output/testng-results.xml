@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-03T13:02:15 PDT" name="Default suite" finished-at="2023-08-03T13:02:18 PDT" duration-ms="2641">
+  <suite started-at="2023-08-03T18:34:11 PDT" name="Default suite" finished-at="2023-08-03T18:34:16 PDT" duration-ms="4864">
     <groups>
     </groups>
-    <test started-at="2023-08-03T13:02:15 PDT" name="Default test" finished-at="2023-08-03T13:02:18 PDT" duration-ms="2641">
-      <class name="com.kabir.e2eframework.tests.DataDrivenTestingUsingExcelFile">
-        <test-method signature="DataDrivenTesting(java.util.Map)[pri:0, instance:com.kabir.e2eframework.tests.DataDrivenTestingUsingExcelFile@4f18837a]" started-at="2023-08-03T13:02:16 PDT" name="DataDrivenTesting" data-provider="ExcelTestData" finished-at="2023-08-03T13:02:17 PDT" duration-ms="1448" status="PASS">
+    <test started-at="2023-08-03T18:34:11 PDT" name="Default test" finished-at="2023-08-03T18:34:16 PDT" duration-ms="4864">
+      <class name="com.kabir.restassured.framework.tests.DataDrivenTestingUsingExcelFile">
+        <test-method signature="DataDrivenTesting(java.util.Map)[pri:0, instance:com.kabir.restassured.framework.tests.DataDrivenTestingUsingExcelFile@4f18837a]" started-at="2023-08-03T18:34:11 PDT" name="DataDrivenTesting" data-provider="ExcelTestData" finished-at="2023-08-03T18:34:13 PDT" duration-ms="1451" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{APIMethodName=PostBooking, BaseLineStatusCode=201, FirstName=Mohammad, InputData={
+                <![CDATA[{APIMethodName=PostBooking, BaseLineStatusCode=201, InputData={
   "firstname": "Van",
   "lastname": "Dam",
   "totalprice": 1000,
@@ -21,18 +21,18 @@
     "checkout": "2019-01-01"
   },
   "additionalneeds": "Muslim Food"
-}, LastName=kabir, SequenceID=1, Test_Case_Name=FlightBookingE2E, TotalPrice=1000, ValidationContent=}]]>
+}, SequenceID=1, Test_Case_Name=FlightBookingE2E, ValidationContent=}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DataDrivenTesting -->
-        <test-method signature="DataDrivenTesting(java.util.Map)[pri:0, instance:com.kabir.e2eframework.tests.DataDrivenTestingUsingExcelFile@4f18837a]" started-at="2023-08-03T13:02:17 PDT" name="DataDrivenTesting" data-provider="ExcelTestData" finished-at="2023-08-03T13:02:18 PDT" duration-ms="797" status="PASS">
+        <test-method signature="DataDrivenTesting(java.util.Map)[pri:0, instance:com.kabir.restassured.framework.tests.DataDrivenTestingUsingExcelFile@4f18837a]" started-at="2023-08-03T18:34:13 PDT" name="DataDrivenTesting" data-provider="ExcelTestData" finished-at="2023-08-03T18:34:13 PDT" duration-ms="478" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{APIMethodName=GetBooking, BaseLineStatusCode=200, FirstName=, InputData=, LastName=, SequenceID=2, Test_Case_Name=FlightBookingE2E, TotalPrice=, ValidationContent=[$.lastname],[EQUALS],[Dam]
+                <![CDATA[{APIMethodName=GetBooking, BaseLineStatusCode=200, InputData=, SequenceID=2, Test_Case_Name=FlightBookingE2E, ValidationContent=[$.lastname],[EQUALS],[Dam]
 [$.firstname],[EQUALS],[Van]}]]>
               </value>
             </param>
@@ -40,18 +40,89 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DataDrivenTesting -->
-        <test-method signature="DataDrivenTesting(java.util.Map)[pri:0, instance:com.kabir.e2eframework.tests.DataDrivenTestingUsingExcelFile@4f18837a]" started-at="2023-08-03T13:02:18 PDT" name="DataDrivenTesting" data-provider="ExcelTestData" finished-at="2023-08-03T13:02:18 PDT" duration-ms="0" status="PASS">
+        <test-method signature="DataDrivenTesting(java.util.Map)[pri:0, instance:com.kabir.restassured.framework.tests.DataDrivenTestingUsingExcelFile@4f18837a]" started-at="2023-08-03T18:34:13 PDT" name="DataDrivenTesting" data-provider="ExcelTestData" finished-at="2023-08-03T18:34:13 PDT" duration-ms="432" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{APIMethodName=PutBooking, BaseLineStatusCode=201, FirstName=, InputData=, LastName=, SequenceID=3, Test_Case_Name=FlightBookingE2E, TotalPrice=, ValidationContent=}]]>
+                <![CDATA[{APIMethodName=GetToken, BaseLineStatusCode=200, InputData={
+  "username": "admin",
+  "password": "password123"
+}, SequenceID=3, Test_Case_Name=FlightBookingE2E, ValidationContent=[$.token],[KEYEXISTS],[TRUE],[1]}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DataDrivenTesting -->
-      </class> <!-- com.kabir.e2eframework.tests.DataDrivenTestingUsingExcelFile -->
+        <test-method signature="DataDrivenTesting(java.util.Map)[pri:0, instance:com.kabir.restassured.framework.tests.DataDrivenTestingUsingExcelFile@4f18837a]" started-at="2023-08-03T18:34:13 PDT" name="DataDrivenTesting" data-provider="ExcelTestData" finished-at="2023-08-03T18:34:14 PDT" duration-ms="424" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{APIMethodName=PutBooking, BaseLineStatusCode=200, InputData={
+  "firstname": "Van",
+  "lastname": "Dam",
+  "totalprice": 1000,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2018-01-01",
+    "checkout": "2019-01-01"
+  },
+  "additionalneeds": "Rib Eye Steak"
+}, SequenceID=4, Test_Case_Name=FlightBookingE2E, ValidationContent=[$.additionalneeds],[EQUALS],[Rib Eye Steak]}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataDrivenTesting -->
+        <test-method signature="DataDrivenTesting(java.util.Map)[pri:0, instance:com.kabir.restassured.framework.tests.DataDrivenTestingUsingExcelFile@4f18837a]" started-at="2023-08-03T18:34:14 PDT" name="DataDrivenTesting" data-provider="ExcelTestData" finished-at="2023-08-03T18:34:14 PDT" duration-ms="416" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{APIMethodName=GetBooking, BaseLineStatusCode=200, InputData=, SequenceID=5, Test_Case_Name=FlightBookingE2E, ValidationContent=[$.additionalneeds],[EQUALS],[Rib Eye Steak]}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataDrivenTesting -->
+        <test-method signature="DataDrivenTesting(java.util.Map)[pri:0, instance:com.kabir.restassured.framework.tests.DataDrivenTestingUsingExcelFile@4f18837a]" started-at="2023-08-03T18:34:14 PDT" name="DataDrivenTesting" data-provider="ExcelTestData" finished-at="2023-08-03T18:34:15 PDT" duration-ms="423" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{APIMethodName=PatchBooking, BaseLineStatusCode=200, InputData={
+  "lastname": "Kabir"
+}, SequenceID=6, Test_Case_Name=FlightBookingE2E, ValidationContent=[$.lastname],[EQUALS],[Kabir]}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataDrivenTesting -->
+        <test-method signature="DataDrivenTesting(java.util.Map)[pri:0, instance:com.kabir.restassured.framework.tests.DataDrivenTestingUsingExcelFile@4f18837a]" started-at="2023-08-03T18:34:15 PDT" name="DataDrivenTesting" data-provider="ExcelTestData" finished-at="2023-08-03T18:34:15 PDT" duration-ms="417" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{APIMethodName=GetBooking, BaseLineStatusCode=200, InputData=, SequenceID=7, Test_Case_Name=FlightBookingE2E, ValidationContent=[$.lastname],[EQUALS],[Kabir]
+[$.additionalneeds],[EQUALS],[Rib Eye Steak]}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataDrivenTesting -->
+        <test-method signature="DataDrivenTesting(java.util.Map)[pri:0, instance:com.kabir.restassured.framework.tests.DataDrivenTestingUsingExcelFile@4f18837a]" started-at="2023-08-03T18:34:15 PDT" name="DataDrivenTesting" data-provider="ExcelTestData" finished-at="2023-08-03T18:34:16 PDT" duration-ms="425" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{APIMethodName=DeleteBooking, BaseLineStatusCode=201, InputData=, SequenceID=8, Test_Case_Name=FlightBookingE2E, ValidationContent=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataDrivenTesting -->
+      </class> <!-- com.kabir.restassured.framework.tests.DataDrivenTestingUsingExcelFile -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

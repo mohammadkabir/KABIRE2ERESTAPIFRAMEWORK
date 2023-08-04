@@ -1,4 +1,4 @@
-package com.kabir.e2eframework.utils;
+package com.kabir.restassured.framework.utils;
 
 import java.util.List;
 import java.util.Map;
@@ -12,7 +12,7 @@ import org.testng.asserts.SoftAssert;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import com.jayway.jsonpath.JsonPath;
-import com.kabir.e2eframework.utils.FileNameConstants.ValidationEnum;
+import com.kabir.restassured.framework.utils.FileNameConstants.ValidationEnum;
 import net.minidev.json.JSONArray;
 
 import java.util.regex.Pattern;
@@ -107,11 +107,15 @@ public class JsonResponseValidation {
 
 		List<String> list = new ArrayList<String>();
 
+		// String trimmedbaseJsonPath=baseJsonPath.substring(1,baseJsonPath.length()-1);
+
 		try {
 
 			if (baseJsonPath.startsWith("$.")) {
 
 				String fieldName = baseJsonPath.substring(2, baseJsonPath.length());
+				// String value = JsonPath.read(respJsonString, baseJsonPath);
+
 				String value = "";
 
 				// JsonPrimitive value =JsonPath.read(respJsonString, baseJsonPath);
@@ -122,6 +126,7 @@ public class JsonResponseValidation {
 				}
 
 				else if (JsonPath.read(respJsonString, baseJsonPath) instanceof JsonArray) {
+
 					System.out.print("Returning Json Array");
 					value = JsonPath.read(respJsonString, baseJsonPath).toString();
 				}
@@ -140,6 +145,7 @@ public class JsonResponseValidation {
 				} else {
 
 					System.out.print("Returning a Different Kind of Value");
+
 				}
 
 				System.out.println(" The " + fieldName + " found in the response:!!!! " + value);
@@ -205,7 +211,7 @@ public class JsonResponseValidation {
 		return resultantMap;
 	}
 
-	/* Start of doValidation Method */
+// Start doValidation Method
 
 	private static void doValidation(String[] baseXPathORJSONArray, List<String> actualXPathORJSONValue,
 			SoftAssert sAssert, String validationTypeKey, String defaultJIRA_ID) throws Exception {

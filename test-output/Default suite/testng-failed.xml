@@ -5,7 +5,7 @@
     <classes>
       <class name="com.kabir.e2eframework.tests.DataDrivenTestingUsingExcelFile">
         <methods>
-          <include name="DataDrivenTesting" invocation-numbers="0 1"/>
+          <include name="DataDrivenTesting" invocation-numbers="0 1 2 3"/>
         </methods>
       </class> <!-- com.kabir.e2eframework.tests.DataDrivenTestingUsingExcelFile -->
     </classes>
